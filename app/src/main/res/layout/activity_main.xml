@@ -2,12 +2,30 @@
     android:layout_width="match_parent"
     android:orientation="vertical"
     android:gravity="center"
+    android:background="@drawable/bg"
     xmlns:android="http://schemas.android.com/apk/res/android">
-
-    <TextView
-        android:text="Hello world"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
-
-
+    <Button
+        android:text="Addition"
+        android:id="@+id/aadd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </Button>
+    <Button
+        android:text="Subtraction"
+        android:id="@+id/sub"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </Button>
+    <Button
+        android:text="Multiply"
+        android:id="@+id/mul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </Button>
+    <Button
+        android:text="Divide"
+        android:id="@+id/div"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+    </Button>
 </LinearLayout>
